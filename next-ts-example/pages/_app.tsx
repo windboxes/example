@@ -13,9 +13,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <React.Fragment>
       <Head>
+        <title>WindBoxes Next Typescript Example</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet"></link>
       </Head>
 
       <TailwindStyledProvider tailwind={twCssModule}>
