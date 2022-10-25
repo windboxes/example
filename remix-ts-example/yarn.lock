@@ -1756,10 +1756,10 @@
   resolved "https://registry.yarnpkg.com/@web3-storage/multipart-parser/-/multipart-parser-1.0.0.tgz#6b69dc2a32a5b207ba43e556c25cc136a56659c4"
   integrity sha512-BEO6al7BYqcnfX15W2cnGR+Q566ACXAT9UQykORCWW80lmkpWsnEob6zJS1ZVBKsSJC8+7vJkHwlp+lXG1UCdw==
 
-"@windboxes/core@^0.0.1-beta.8.11":
-  version "0.0.1-beta.8.11"
-  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.11.tgz#0883a9adfac7944ff6791f48c868338cb2211d82"
-  integrity sha512-61uHfETjlWhSyuEBrW6mkcyEeulxTc1HpCSKMG4RfvUn5OQd1OOkcbrmO5fS5puLlRTOjk78MyC7tfR5RLrUVg==
+"@windboxes/core@^0.0.1-beta.8.18":
+  version "0.0.1-beta.8.18"
+  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.18.tgz#37768b29ef28659ecc846a831a928ffd224f69ef"
+  integrity sha512-GgkzyjPrF/WcAa+j5/05VeCgqBU8ZBW3QP4k9LoiP/ldDWn1SjL9U9wgIYkckx4ol7+tpWoEPzU9ujgzpcvGeg==
 
 "@yarnpkg/esbuild-plugin-pnp@3.0.0-rc.11":
   version "3.0.0-rc.11"

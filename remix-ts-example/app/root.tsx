@@ -7,10 +7,10 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-// import { TailwindStyledProvider } from '@windboxes/core';
+import { TailwindStyledProvider } from '@windboxes/core';
 
-import styles from "./styles/app.css";
-// import tailwindStyles from "./styles/tailwind.json";
+import styles from "./styles/tailwind.css";
+import tailwindStyles from "./styles/tailwind.json";
 
 
 
@@ -36,7 +36,9 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <Outlet />
+        <TailwindStyledProvider tailwind={tailwindStyles}>
+          <Outlet />
+        </TailwindStyledProvider>
 
         <ScrollRestoration />
         <Scripts />

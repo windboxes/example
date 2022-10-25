@@ -7,7 +7,7 @@ module.exports = {
     autoprefixer: {},
     'postcss-modules': ({
       getJSON: async (cssFilename, json, outputFilename) => {
-        console.log(cssFilename, json, outputFilename);
+        // console.log(cssFilename, json, outputFilename);
         await fsp
           .mkdir(path.dirname(outputFilename), { recursive: true })
           .catch(() => {});
