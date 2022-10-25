@@ -4,7 +4,6 @@ import styled from '@windboxes/core';
 
 
 const Box = styled.div();
-
 const Button = styled('button', [
   'p-3',
   'flex',
@@ -20,12 +19,14 @@ const Button = styled('button', [
   'disabled:opacity-80',
   // 'bg-[#50d71e]'
 ]);
+const Wrapper = styled('main', 'min-h-screen flex flex-col justify-center items-center');
+const Container = styled.div('mx-auto text-center');
 
-const Typography = styled('div');
-
+const Title = styled.h1('tracking-wide font-[Inter] font-black');
+const Description = styled.p('text-xl');
+const Code = styled.code('bg-[#fafafa] rounded-md px-3 py-1 text-xl font-[Menlo]');
+const BaseLink = styled.a('m-3 hover:underline');
 const Card = styled('div', 'p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4');
-
-const Link = styled.a('text-xl hover:text-purple-600');
 
 
 
@@ -34,65 +35,40 @@ export default function Index() {
   const [count, setCount] = React.useState<number>(0);
 
   return (
-    <Box sx={['container', 'mx-auto']}>
-      <Typography
-        sx={`
-          mt-10
-          text-[2.375rem]
-          text-center
-          font-bold
-          text-slate-900
-          dark:text-slate-200
-        `}
-      >
-        Welcome to Remix
-      </Typography>
+    <Wrapper>
+      <Container>
+        <Title sx="text-6xl">
+          Welcome to
+          <BaseLink sx="text-white drop-shadow-[0_10px_18px_rgba(39,68,102,1)]" href="https://remix.run/docs/en/v1" target="_blank" rel="noreferrer noopener">Remix!</BaseLink>
+        </Title>
 
-      <Box sx="mx-auto text-center">
-        <Typography sx="mt-10 text-3xl">The @windboxes/core Test!</Typography>
-      </Box>
+        <Description sx="mt-10 mb-5">
+          This is WindBoxes for Remix Example, contain
+          <BaseLink sx="text-[#0070f3]" href="https://github.com/windboxes/core" target="_blank" rel="noreferrer noopener">WindBoxes</BaseLink>
+          and
+          <BaseLink sx="text-[#0070f3]" href="https://tailwindcss.com/" target="_blank" rel="noreferrer noopener">Tailwind</BaseLink>
+        </Description>
 
-      <Card sx='mt-10 bg-[#34eb9b] pd-5'>
-        Test Background Color Card
-      </Card>
+        <Description sx="mt-5 mb-10">
+          Get started by editing{' '}
+          <Code>app/routes/index.tsx</Code>
+        </Description>
 
-      <Box sx="mt-5">
-        <Button
-          sx={[
-            'p-3',
-            'mx-auto'
-          ]}
-          type="button"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          count is: {count}
-        </Button>
-      </Box>
+        <Box sx="mt-5">
+          <Button
+            sx={[
+              'p-3',
+              'mx-auto'
+            ]}
+            type="button"
+            onClick={() => setCount((count) => count + 1)}
+          >
+            count is: {count}
+          </Button>
 
-      <Box sx="mt-10 text-center">
-        <Link
-          className="App-link"
-          href="https://remix.run/tutorials/blog"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          15m Quickstart Blog Tutorial
-        </Link>
-        {' | '}
-        <Link
-          className="App-link"
-          href="https://remix.run/tutorials/jokes"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Deep Dive Jokes App Tutorial
-        </Link>
-        {' | '}
-        <Link target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-        </Link>
-      </Box>
-
-    </Box>
+          <Card sx="mt-10 bg-[#34eb9b] pd-5">Custom Background Color Card</Card>
+        </Box>
+      </Container>
+    </Wrapper>
   );
 }

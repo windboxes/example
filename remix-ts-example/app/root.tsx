@@ -15,7 +15,10 @@ import tailwindStyles from "./styles/tailwind.json";
 
 
 export function links() {
-  return [{ rel: "stylesheet", href: styles }]
+  return [
+    { rel: "stylesheet", href: styles },
+    { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@500;700;900&family=Noto+Sans+TC:wght@400;500;700&family=Rubik:wght@400;500;600;700&display=swap" },
+  ]
 }
 
 
