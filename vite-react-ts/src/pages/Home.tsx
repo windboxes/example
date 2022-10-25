@@ -31,7 +31,7 @@ export default function HomePage() {
           dark:text-slate-200
         `}
       >
-        Styled Map Component Test Page
+        WindBoxes Example Page
       </Typography>
 
       <Box sx="mx-auto text-center">
