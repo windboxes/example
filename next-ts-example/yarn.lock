@@ -246,10 +246,10 @@
     "@typescript-eslint/types" "5.40.1"
     eslint-visitor-keys "^3.3.0"
 
-"@windboxes/core@^0.0.1-beta.8.8":
-  version "0.0.1-beta.8.8"
-  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.8.tgz#9b0f1bd534f96de6ab353ce47e7e93b300026833"
-  integrity sha512-PzZ3nh1YhhVGSnTEwI9iOmcqfcZP5Sx/3HUslexd1a0jcSEIyp7QTe7GhngFIMtkc6DPkkGsAz6bi3BJbTppfA==
+"@windboxes/core@^0.0.1-beta.8.30":
+  version "0.0.1-beta.8.30"
+  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.30.tgz#ee65bc3f7e185ec50b3d909a7b6d2020bf5b4141"
+  integrity sha512-tuBfb47pyBL4tw7FP5+YGHYuBk6kJ0EAkVh5j7mkYAuwz7i3tc+EsDXL6k1AeGcKw2IFrn2aUF/goWt8B4rkjA==
 
 acorn-jsx@^5.3.2:
   version "5.3.2"
