@@ -246,7 +246,7 @@
     "@typescript-eslint/types" "5.40.1"
     eslint-visitor-keys "^3.3.0"
 
-"@windboxes/core@^0.0.1-beta.8.30":
+"@windboxes/core@^0.0.1-beta.8.34":
   version "0.0.1-beta.8.34"
   resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.34.tgz#3d0d9f5ef1fb64f6c1efa88e84775ee75f51fb93"
   integrity sha512-XUjY0mc7z5zGC2jSYwksneMZapdfm0Jipx2UW+RGnjGz7sHZ69mfIeLyr5zkhXpxO1lv6ZBBwMBE7OnmZUT+MA==
