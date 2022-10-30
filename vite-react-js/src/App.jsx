@@ -49,8 +49,8 @@ export default function HomePage() {
       </Typography>
 
       <Box sx="mx-auto text-center">
-        <Image sx="w-1/4 mx-auto mt-10" src={logo} alt="logo" />
-        <p>The @windboxes/core Test!</p>
+        <Image sx="w-[128px] mx-auto mt-10" src={logo} alt="logo" />
+        <Typography sx="mt-5">The @windboxes/core Test!</Typography>
       </Box>
 
       <Card sx='mt-10 bg-[#34eb9b] pd-5'>
