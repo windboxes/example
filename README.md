@@ -1,6 +1,7 @@
 # WindBoxes Examples
 
-* [vite-react-ts](./vite-react-ts)
-* [next-ts-example](./next-ts-example)
-* [remix-ts-example](./remix-ts-example)
-* [gatsby-ts-example](./gatsby-ts-example)
+### React
+* [vite-react-ts](./react/vite-react-ts)
+* [next-ts-example](./react/next-ts-example)
+* [remix-ts-example](./react/remix-ts-example)
+* [gatsby-ts-example](./react/gatsby-ts-example)
