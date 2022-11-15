@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '@/assets/logo.svg'
 
-import styled from '@windboxes/core';
+import styled from '@windboxes/react';
 import Button from '@/components/system/Button';
 
 
@@ -36,7 +36,7 @@ export default function HomePage() {
 
       <Box sx="mx-auto text-center">
         <Image sx="w-1/4 mx-auto mt-10" src={logo} alt="logo" />
-        <p>The @windboxes/core Test!</p>
+        <p>The @windboxes/react Test!</p>
       </Box>
 
       <Card sx='mt-10 bg-[#34eb9b] pd-5'>

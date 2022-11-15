@@ -2,7 +2,7 @@ import React from 'react';
 import type { GatsbyBrowser } from "gatsby";
 
 import "./src/styles/global.css";
-import { TailwindStyledProvider } from "@windboxes/core";
+import { TailwindStyledProvider } from "@windboxes/react";
 import twStyles from './src/styles/tailwind.module.css';
 
 

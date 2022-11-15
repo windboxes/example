@@ -366,10 +366,17 @@
     magic-string "^0.26.7"
     react-refresh "^0.14.0"
 
-"@windboxes/core@^0.0.1-beta.8.34":
-  version "0.0.1-beta.8.34"
-  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.34.tgz#3d0d9f5ef1fb64f6c1efa88e84775ee75f51fb93"
-  integrity sha512-XUjY0mc7z5zGC2jSYwksneMZapdfm0Jipx2UW+RGnjGz7sHZ69mfIeLyr5zkhXpxO1lv6ZBBwMBE7OnmZUT+MA==
+"@windboxes/core@^0.0.1-beta.8.35":
+  version "0.0.1-beta.8.35"
+  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.35.tgz#107e9e9657502e1e056b04cb6b9388f576972667"
+  integrity sha512-K2mhct3Qmo/4ytYSeQndG1oTfIElc5MJyOVtiR7ZCcHiflvLl5prQ/CTOxC5S26q8si70HiUwX2eZ1Bx7hkIWw==
+
+"@windboxes/react@^0.0.1-beta.1.1":
+  version "0.0.1-beta.1.1"
+  resolved "https://registry.yarnpkg.com/@windboxes/react/-/react-0.0.1-beta.1.1.tgz#0922afa3348de05ccbd864eff6240884c1a7d6da"
+  integrity sha512-LI2PzqjXiqjjLX23uuTA/Q9uxlEty7fZA8iih1OXhkVWvTnfzTLPQdROo1TgT7nDUeXKmJgIJ+nGQNrqEqd/TQ==
+  dependencies:
+    "@windboxes/core" "^0.0.1-beta.8.35"
 
 acorn-node@^1.8.2:
   version "1.8.2"

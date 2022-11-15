@@ -1,6 +1,6 @@
 import React from 'react';
 
-import styled from '@windboxes/core';
+import styled from '@windboxes/react';
 
 import Button from '@/components/system/Button';
 import ToggleCard from '@/components/pages/wind/ToggleCard';
@@ -24,7 +24,7 @@ export default function WingPage() {
 
   return (
     <Box sx={['container', 'mx-auto']}>
-      <Typography>@windboxes/core Test</Typography>
+      <Typography>@windboxes/react Test</Typography>
 
       <Box sx="mt-5">
         <Button

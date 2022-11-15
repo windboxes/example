@@ -3,7 +3,7 @@ import React from 'react';
 import Head from 'next/head';
 // tailwind components
 import '../styles/globals.css';
-import { TailwindStyledProvider } from "@windboxes/core";
+import { TailwindStyledProvider } from "@windboxes/react";
 import twCssModule from '../styles/tailwind.module.css';
 
 

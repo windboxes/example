@@ -1,6 +1,6 @@
 import * as React from "react";
 import type { HeadFC } from "gatsby";
-import styled, { useTailwind } from "@windboxes/core";
+import styled, { useTailwind } from "@windboxes/react";
 
 
 

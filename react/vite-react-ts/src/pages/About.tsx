@@ -1,5 +1,5 @@
 import React from "react";
-import styled from '@windboxes/core';
+import styled from '@windboxes/react';
 
 
 const Typography = styled('div');

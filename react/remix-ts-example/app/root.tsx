@@ -7,7 +7,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "@remix-run/react";
-import { TailwindStyledProvider } from '@windboxes/core';
+import { TailwindStyledProvider } from '@windboxes/react';
 
 import styles from "./styles/tailwind.css";
 import tailwindStyles from "./styles/tailwind.json";

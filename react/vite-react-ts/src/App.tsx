@@ -11,7 +11,7 @@ import twCssModule from "@/styles/tailwind.module.css";
 
 //layout
 import BaseLayout from "@/components/layout";
-import { TailwindStyledProvider } from "@windboxes/core";
+import { TailwindStyledProvider } from "@windboxes/react";
 
 
 

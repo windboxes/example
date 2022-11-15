@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const path = require('path');
 const loaderUtils = require('loader-utils');
-const withWindboxes = require('next-transpile-modules')(['@windboxes/core']);
+const withWindboxes = require('next-transpile-modules')(['@windboxes/react']);
 
 
 

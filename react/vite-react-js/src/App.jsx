@@ -1,7 +1,7 @@
 import React from 'react'
 import logo from '@/assets/react.svg'
 
-import styled from '@windboxes/core';
+import styled from '@windboxes/react';
 
 
 
@@ -50,7 +50,7 @@ export default function HomePage() {
 
       <Box sx="mx-auto text-center">
         <Image sx="w-[128px] mx-auto mt-10" src={logo} alt="logo" />
-        <Typography sx="mt-5">The @windboxes/core Test!</Typography>
+        <Typography sx="mt-5">The @windboxes/react Test!</Typography>
       </Box>
 
       <Card sx='mt-10 bg-[#34eb9b] pd-5'>

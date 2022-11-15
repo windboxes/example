@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import React from 'react';
 import Head from 'next/head';
-import styled from '@windboxes/core';
+import styled from '@windboxes/react';
 
 
 
