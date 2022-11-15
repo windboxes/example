@@ -1,10 +1,27 @@
 <script lang="ts">
-  let count: number = 0
+  import styled from "../windboxes";
+
+  let count: number = 0;
   const increment = () => {
-    count += 1
-  }
+    count += 1;
+  };
+
+  const ButtonClasses = styled(`
+    rounded-md
+    px-4
+    py-3
+    bg-[#f9f9f9]
+    pointer
+    border-2
+    border-transport
+    hover:bg-50
+    hover:border-blue-300
+    active:bg-blue-100
+    active:border-blue-500
+    duration-100
+  `);
 </script>
 
-<button on:click={increment}>
+<button class={ButtonClasses} on:click={increment}>
   count is {count}
 </button>
