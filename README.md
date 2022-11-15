@@ -10,3 +10,10 @@
 ### Vue
 * [vite-vue-ts](./vue/vite-vue-ts)
 * [vite-vue-js](./vue/vite-vue-js)
+
+### Svelte
+* [vite-svelte-ts](./vue/vite-svelte-ts)
+
+### Vanilla
+* [vite-vanilla-ts](./vue/vite-vanilla-ts)
+* [vite-vanilla-js](./vue/vite-vanilla-js)
