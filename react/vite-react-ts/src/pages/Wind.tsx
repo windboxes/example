@@ -14,7 +14,7 @@ const Box = styled('div');
 const Typography = styled('div', [
   'mt-10',
   'text-[2.375rem]',
-  'text-center'
+  'text-center',
 ]);
 
 

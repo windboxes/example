@@ -39,7 +39,7 @@ export default function HomePage() {
         <p>The @windboxes/react Test!</p>
       </Box>
 
-      <Card sx='mt-10 bg-[#34eb9b] pd-5'>
+      <Card sx='mt-10 bg-[#34eb9b] p-5'>
         Test Background Color Card
       </Card>
 

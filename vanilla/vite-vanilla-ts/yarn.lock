@@ -33,10 +33,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@windboxes/core@^0.0.1-beta.8.40":
-  version "0.0.1-beta.8.40"
-  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.40.tgz#4b66cb983c0145bc3f4e075d2941e8f4dc6b799f"
-  integrity sha512-AnDZpRgONqp0p4CySXUuvABzJwqTf5V1dX+KADyIl6+/JLV0Bwy8Uca2vJrsS8MhDG3w2vZ2HLtxQpxbKbb2nQ==
+"@windboxes/core@^0.0.1-beta.8.44":
+  version "0.0.1-beta.8.44"
+  resolved "https://registry.yarnpkg.com/@windboxes/core/-/core-0.0.1-beta.8.44.tgz#fcd1e9878d3461a274ea54e7982594c80c3c46b4"
+  integrity sha512-3/4Zf00UTfEkyBu0wpX2bpZbLbdIgl5o8psrf4MTdXsMR5g/0o5k/z1lEPYrsIUb4kqVrloW86/j2Kzc8tcjWQ==
 
 acorn-node@^1.8.2:
   version "1.8.2"
