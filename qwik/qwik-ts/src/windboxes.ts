@@ -1,4 +1,4 @@
-import { parseStyle } from '@windboxes/core';
+import parseStyle from '@windboxes/core';
 import tailwind from './tailwind.module.css';
 
 
