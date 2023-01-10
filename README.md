@@ -4,8 +4,9 @@ WindBoxes have two usages, use styled component and class string.
 
 
 ## core function usage
-Module: `@windboxes/core`
-easy way to parse styles
+Module: [`@windboxes/core`](https://www.npmjs.com/package/@windboxes/core)
+
+easy way to parse css module styles
 
 ### Vue
 * [vite-vue-ts](./vue/vite-vue-ts)
@@ -24,12 +25,12 @@ easy way to parse styles
 
 
 ## styled component usage
-Module: `@windboxes/react`
+Module: [`@windboxes/react`](https://www.npmjs.com/package/@windboxes/react)
 
 this feature still testing
 ### React
-* [vite-react-ts](./react/vite-react-ts)
-* [vite-react-js](./react/vite-react-js)
-* [next-ts-example](./react/next-ts-example)
-* [remix-ts-example](./react/remix-ts-example)
-* [gatsby-ts-example](./react/gatsby-ts-example)
+* [vite-react-ts](./styled-component/react/vite-react-ts)
+* [vite-react-js](./styled-component/react/vite-react-js)
+* [next-ts-example](./styled-component/react/next-ts-example)
+* [remix-ts-example](./styled-component/react/remix-ts-example)
+* [gatsby-ts-example](./styled-component/react/gatsby-ts-example)
